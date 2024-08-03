@@ -11,6 +11,10 @@
 ```bash
 wget -O install.sh https://raw.githubusercontent.com/DanKE123abc/BTpanel7.7/main/install_6.0_mod.sh && bash install.sh
 ```
+* Github镜像
+```bash
+wget -O install.sh https://mirror.ghproxy.com/https://raw.githubusercontent.com/DanKE123abc/BTpanel7.7/main/install_6.0_mod.sh && bash install.sh
+```
 
 ### 宝塔面板7.7优化补丁
 
@@ -31,10 +35,23 @@ wget -O optimize.sh https://raw.githubusercontent.com/DanKE123abc/BTpanel7.7/mai
 wget -O optimize.sh https://raw.githubusercontent.com/DanKE123abc/BTpanel7.7/main/optimize_mod_fixngnix.sh && bash optimize.sh
 ```
 
+* Github镜像
+```bash
+wget -O optimize.sh https://mirror.ghproxy.com/https://raw.githubusercontent.com/DanKE123abc/BTpanel7.7/main/optimize_mod.sh && bash optimize.sh
+```
+* 如果Ngnix创建的网站出现403 forbidden(保留网站创建的文件）
+```bash
+wget -O optimize.sh https://mirror.ghproxy.com/https://raw.githubusercontent.com/DanKE123abc/BTpanel7.7/main/optimize_mod_fixngnix.sh && bash optimize.sh
+```
+
 
 ### 卸载宝塔面板
 
 * Github链接（若无法访问请重试或使用加速器）
 ```shell
 wget -O bt-uninstall.sh https://raw.githubusercontent.com/DanKE123abc/BTpanel7.7/main/bt-uninstall.sh && bash bt-uninstall.sh
+```
+* Github镜像
+```shell
+wget -O bt-uninstall.sh https://mirror.ghproxy.com/https://raw.githubusercontent.com/DanKE123abc/BTpanel7.7/main/bt-uninstall.sh && bash bt-uninstall.sh
 ```
