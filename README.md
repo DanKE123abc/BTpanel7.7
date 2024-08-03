@@ -13,7 +13,7 @@ wget -O install.sh https://raw.githubusercontent.com/DanKE123abc/BTpanel7.7/main
 ```
 * Github镜像
 ```bash
-wget -O install.sh https://mirror.ghproxy.com/https://raw.githubusercontent.com/DanKE123abc/BTpanel7.7/main/install_6.0_mod.sh && bash install.sh
+wget -O install.sh https://mirror.ghproxy.com/https://raw.githubusercontent.com/DanKE123abc/BTpanel7.7/main/install_6.0_mod_mirror.sh && bash install.sh
 ```
 
 ### 宝塔面板7.7优化补丁
