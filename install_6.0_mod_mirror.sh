@@ -485,7 +485,7 @@ Install_Bt(){
 	wget -O /www/server/panel/install/public.sh ${download_Url}/install/public.sh -T 10
 
 	##面板下载链接
-	wget -O panel.zip https://mirror.ghproxy.com/https://raw.githubusercontent.com/DanKE123abc/BTpanel7.7/main/install_6.0_mod.sh -T 10
+	wget -O panel.zip https://gh-proxy.org/https://raw.githubusercontent.com/DanKE123abc/BTpanel7.7/main/install_6.0_mod.sh -T 10
 	##面板下载链接
 
 	if [ -f "${setup_path}/server/panel/data/default.db" ];then
